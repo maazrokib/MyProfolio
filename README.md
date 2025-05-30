@@ -1,7 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
+
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Senior Java Developer - Portfolio</title>
@@ -520,9 +520,9 @@
             }
         }
     </style>
-</head>
 
-<body>
+
+
     <!-- Floating particles -->
     <div class="particles">
         <div class="particle" style="width: 10px; height: 10px; left: 10%; top: 20%; animation-delay: 0s;"></div>
@@ -847,6 +847,6 @@
             });
         });
     </script>
-</body>
 
-</html>
+
+
