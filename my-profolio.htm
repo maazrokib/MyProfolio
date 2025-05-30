@@ -336,87 +336,18 @@
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 2rem;
             margin-top: 3rem;
-        }
-
-        .contact-item {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(20px);
-            border-radius: 15px;
-            padding: 2rem;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            box-shadow: 0 0 10px rgba(0, 245, 255, 0.4);
-            /* হালকা glow */
-            transition: all 0.3s ease;
-            /* স্মুথ hover effect */
-
-
-        }
-
-        .contact-icon {
-            font-size: 2rem;
-            color: #00f5ff;
-            margin-bottom: 1rem;
-        }
-
-        .contact-item0 {
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(20px);
-            border-radius: 15px;
-            padding: 2rem;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-
-            /* নতুন যোগ করা স্টাইল */
-            width: 210%;
-            /* পুরো available width নিবে */
-            max-width: 6000px;
-            /* সর্বোচ্চ 600px পর্যন্ত বিস্তৃত হবে */
-            margin: 0 auto;
-            /* সেন্টারে আনবে */
-            box-shadow: 0 0 10px rgba(0, 245, 255, 0.4);
-            /* হালকা glow */
-            transition: all 0.3s ease;
-            /* স্মুথ hover effect */
-        }
-
-        .contact-item0:hover {
-            box-shadow: 0 0 20px rgba(0, 245, 255, 0.6);
-            /* hover এ glow বাড়বে */
-        }
-
-        .contact-icon0 {
-            font-size: 2rem;
-            color: #00f5ff;
-            margin-bottom: 1rem;
-        }
-
-        .contact-info {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-            margin-top: 3rem;
-        }
-
-        .contact-info {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-            margin-top: 3rem;
             align-items: stretch;
-            /* এটা নিশ্চিত করে সব বক্স সমান height নিবে */
         }
 
         .contact-item {
             display: flex;
-            /* flex দিয়ে ভিতরের content center করা সহজ */
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            /* content vertically center হবে */
             text-align: center;
             text-decoration: none;
             color: inherit;
             height: 100%;
-            /* height পুরো parent এর সমান হবে */
             padding: 2rem;
             background: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(20px);
@@ -431,11 +362,46 @@
             box-shadow: 0 0 20px rgba(0, 245, 255, 0.6);
         }
 
+        .contact-icon {
+            font-size: 2rem;
+            color: #00f5ff;
+            margin-bottom: 1rem;
+        }
+
+        .contact-item0 {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            border-radius: 15px;
+            padding: 2rem;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            width: 210%;
+            max-width: 6000px;
+            margin: 0 auto;
+            box-shadow: 0 0 10px rgba(0, 245, 255, 0.4);
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: inherit;
+            height: 100%;
+        }
+
+        .contact-item0:hover {
+            box-shadow: 0 0 20px rgba(0, 245, 255, 0.6);
+        }
+
+        .contact-icon0 {
+            font-size: 2rem;
+            color: #00f5ff;
+            margin-bottom: 1rem;
+        }
+
         .project-card-link {
             text-decoration: none;
             color: inherit;
         }
-
 
         /* Footer */
         footer {
@@ -552,13 +518,10 @@
             <h1>Java Developer</h1>
             <p>Passionate Java developer with 1 years of experience building scalable and robust enterprise
                 applications.</p>
-
             <div class="cta-buttons">
                 <a href="#projects" class="btn btn-primary">View Projects</a>
-                <a href="cv.pdf" class="btn btn-secondary" download="Rakib_CV.pdf">Viwe Resume</a>
-
+                <a href="cv.pdf" class="btn btn-secondary" download="Rakib_CV.pdf">View Resume</a>
             </div>
-        </div>
         </div>
     </section>
 
@@ -583,12 +546,12 @@
                 <div class="skill-header">
                     <i class="fab fa-java skill-icon"></i>
                     <div>
-                        <div class="skill-name"> Spring Boot</div>
+                        <div class="skill-name">Spring Boot</div>
                         <div class="skill-percentage">90%</div>
                     </div>
                 </div>
                 <div class="skill-bar">
-                    <div class="skill-progress" style="width: 95%;"></div>
+                    <div class="skill-progress" style="width: 90%;"></div>
                 </div>
             </div>
 
@@ -601,7 +564,7 @@
                     </div>
                 </div>
                 <div class="skill-bar">
-                    <div class="skill-progress" style="width: 90%;"></div>
+                    <div class="skill-progress" style="width: 80%;"></div>
                 </div>
             </div>
 
@@ -614,21 +577,20 @@
                     </div>
                 </div>
                 <div class="skill-bar">
-                    <div class="skill-progress" style="width: 85%;"></div>
+                    <div class="skill-progress" style="width: 80%;"></div>
                 </div>
             </div>
 
             <div class="skill-card">
                 <div class="skill-header">
                     <i class="fab fa-android skill-icon"></i>
-
                     <div>
                         <div class="skill-name">Android</div>
                         <div class="skill-percentage">80%</div>
                     </div>
                 </div>
                 <div class="skill-bar">
-                    <div class="skill-progress" style="width: 75%;"></div>
+                    <div class="skill-progress" style="width: 80%;"></div>
                 </div>
             </div>
 
@@ -636,14 +598,13 @@
                 <div class="skill-header">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png" alt="Flutter"
                         class="skill-icon" style="height: 40px;">
-
                     <div>
                         <div class="skill-name">flutter</div>
                         <div class="skill-percentage">80%</div>
                     </div>
                 </div>
                 <div class="skill-bar">
-                    <div class="skill-progress" style="width: 90%;"></div>
+                    <div class="skill-progress" style="width: 80%;"></div>
                 </div>
             </div>
         </div>
@@ -685,7 +646,7 @@
                     <div class="project-content">
                         <h3 class="project-title">To•Let – Smart Rental Platform</h3>
                         <p class="project-description">
-                            A modern and user-friendly To-Let platform that allows house owners to post rental listings and tenants to search and connect easily. Built with robust backend architecture and responsive front-end design for seamless experience.
+                            A modern and user-friendly To-Let platform that allows house owners to post rental listings and tenants to search and connect easily. Built with robust backend architecture[...]
                         </p>
                         <div class="project-tags">
                             <span class="tag">Java</span>
@@ -704,7 +665,7 @@
                     <div class="project-content">
                         <h3 class="project-title">July36 – স্মৃতি চিহ্নে july আন্দোলন</h3>
                         <p class="project-description">
-                            July36 একটি স্মারক ও দলিলভিত্তিক প্ল্যাটফর্ম, যেখানে ২০২৪ সালের জুলাই মাসে ছাত্রদের উপর সংঘটিত হামলার সত্য ঘটনা, নামের তালিকা, সংবাদ প্রতিবেদন, ছবি ও প্রামাণ্য নথিপত্র সংরক্ষিত রয়েছে। এই প্রজেক্টের উদ্দেশ্য হচ্ছে শহীদদের স্মরণ, ইতিহাসকে লিপিবদ্ধ রাখা এবং ন্যায়ের পথে সোচ্চার থাকা।
+                            July36 একটি স্মারক ও দলিলভিত্তিক প্ল্যাটফর্ম, যেখানে ২০২৪ সালের জুলা[...]
                         </p>
                         <div class="project-tags">
                             <span class="tag">Java</span>
@@ -715,8 +676,7 @@
                         </div>
                     </div>
                 </div>
-                
-                
+            </div>
         </div>
     </section>
 
@@ -729,18 +689,14 @@
             </div>
             <div class="about-text">
                 <p>
-                    Passionate Java developer with over a year of experience building impactful web applications. Skilled in full-stack development using Spring Boot, Angular, Hibernate, and MySQL. Experienced in leading feature design, backend implementation, and responsive frontend development.
+                    Passionate Java developer with over a year of experience building impactful web applications. Skilled in full-stack development using Spring Boot, Angular, Hibernate, and MySQL. Ex[...]
                 </p>
-                
                 <p>
                     Committed to leveraging technology for social good, with projects focused on rental management, historical documentation, and agricultural services.
                 </p>
-                
                 <p>
                     Future goal is to become a full-stack architect, creating scalable systems that support education, social justice, and rural development.
                 </p>
-                
-
                 <div class="social-links">
                     <a href="https://www.linkedin.com/in/md-rakib-089370350/" target="_blank" class="social-link"><i
                             class="fab fa-linkedin"></i></a>
@@ -757,7 +713,6 @@
         <div class="contact-container">
             <h2 class="section-title">Get In Touch</h2>
             <p>I'm currently available for new opportunities and collaborations. Feel free to reach out!</p>
-
             <div class="contact-info">
                 <a href="mailto:mdrakib6767@gmail.com" class="contact-item" target="_blank">
                     <div class="contact-icon"><i class="fas fa-envelope"></i></div>
@@ -775,8 +730,6 @@
                     <p>Dhaka, Bangladesh</p>
                 </div>
             </div>
-
-
         </div>
     </section>
 
